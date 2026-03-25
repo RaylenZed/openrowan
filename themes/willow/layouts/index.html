@@ -64,8 +64,6 @@
             <a href="{{ $appData.appstore_url }}" class="btn btn-store" target="_blank" rel="noopener">
               App Store ↗
             </a>
-            {{ else }}
-            <span class="btn btn-coming">Coming soon</span>
             {{ end }}
             <a href="/apps/{{ replace .Name ".yaml" "" }}/" class="btn btn-ghost">Details</a>
           </div>

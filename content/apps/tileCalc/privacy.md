@@ -39,4 +39,4 @@ We will post any changes here with an updated date.
 
 ## Contact
 
-**Email:** [ray@raylenzed.com](mailto:ray@raylenzed.com)
+**Email:** [raylenzed@gmail.com](mailto:raylenzed@gmail.com)

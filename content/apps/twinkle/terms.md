@@ -62,4 +62,4 @@ We may update these Terms. We will notify you of material changes via the App or
 
 ## Contact
 
-[ray@raylenzed.com](mailto:ray@raylenzed.com)
+[raylenzed@gmail.com](mailto:raylenzed@gmail.com)

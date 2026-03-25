@@ -53,4 +53,4 @@ We will update this page when our practices change. The "Last updated" date at t
 
 Questions about this policy:
 
-**Email:** [ray@raylenzed.com](mailto:ray@raylenzed.com)
+**Email:** [raylenzed@gmail.com](mailto:raylenzed@gmail.com)

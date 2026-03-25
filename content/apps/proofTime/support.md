@@ -7,7 +7,7 @@ last_updated: "2026-03-25"
 
 ## Get Help
 
-**Email:** [ray@raylenzed.com](mailto:ray@raylenzed.com)
+**Email:** [raylenzed@gmail.com](mailto:raylenzed@gmail.com)
 
 We typically respond within 1–2 business days.
 

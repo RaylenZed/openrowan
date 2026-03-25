@@ -44,4 +44,4 @@ These Terms are governed by the laws applicable in your jurisdiction. For disput
 
 ## Contact
 
-[ray@raylenzed.com](mailto:ray@raylenzed.com)
+[raylenzed@gmail.com](mailto:raylenzed@gmail.com)
