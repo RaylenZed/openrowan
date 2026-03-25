@@ -1,0 +1,24 @@
+name: "TileCalc"
+slug: "tileCalc"
+tagline: "Calculate tiles. Skip the waste."
+description: "TileCalc is a precise tile and flooring calculator for homeowners, contractors, and designers. Enter your room dimensions, choose your tile size and pattern, and instantly get material quantities with waste buffer. All calculations happen on-device—no account, no internet required."
+platform: "iOS"
+price: "$1.99"
+version: "1.0.0"
+featured: false
+icon: ""
+appstore_url: ""
+
+# Privacy policy generation inputs
+collects_analytics: false
+collects_crash_reports: true
+collects_camera: false
+collects_photo_library: false
+collects_location: false
+collects_contacts: false
+has_account_system: false
+has_subscription: false
+has_iap: false
+stores_data_locally: true
+stores_data_on_server: false
+third_party_sdks: []

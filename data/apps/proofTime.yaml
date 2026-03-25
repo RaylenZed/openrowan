@@ -1,0 +1,26 @@
+name: "ProofTime"
+slug: "proofTime"
+tagline: "Timestamp your work. Prove it happened."
+description: "ProofTime lets you capture timestamped photo and video proof of your work—ideal for contractors, freelancers, and anyone who needs a reliable record. One tap creates an immutable record with GPS coordinates and exact time. No subscription, no cloud, no nonsense."
+platform: "iOS"
+price: "$1.99"
+version: "1.0.0"
+featured: false
+icon: ""
+appstore_url: ""
+
+# Privacy policy generation inputs
+collects_analytics: false
+collects_crash_reports: true
+collects_camera: true
+collects_photo_library: true
+collects_location: true
+collects_contacts: false
+has_account_system: false
+has_subscription: false
+has_iap: false
+stores_data_locally: true
+stores_data_on_server: false
+third_party_sdks: []
+location_purpose: "Embed GPS coordinates into proof records"
+camera_purpose: "Capture timestamped photo and video proof"
