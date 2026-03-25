@@ -2,7 +2,7 @@
 title: "Terms of Service"
 app_name: "Twinkle"
 app_slug: "twinkle"
-last_updated: "2025-03-25"
+last_updated: "2026-03-25"
 ---
 
 ## Agreement

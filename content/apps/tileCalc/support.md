@@ -2,7 +2,7 @@
 title: "Support"
 app_name: "TileCalc"
 app_slug: "tileCalc"
-last_updated: "2025-03-25"
+last_updated: "2026-03-25"
 ---
 
 ## Get Help
