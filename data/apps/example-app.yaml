@@ -1,0 +1,21 @@
+name: "Example App"
+slug: "example-app"
+tagline: "A focused tool that does one thing well."
+description: "Example App is a clean, minimal iOS app designed to help you stay on track. No bloat, no subscription walls — just the core feature done right."
+platform: "iOS"
+price: "Free"
+version: "1.0.0"
+featured: false
+icon: ""
+appstore_url: ""
+
+# What data this app collects (used to generate privacy policy)
+collects_analytics: false
+collects_crash_reports: true
+collects_camera: false
+collects_location: false
+collects_contacts: false
+has_account_system: false
+has_subscription: false
+has_iap: false
+third_party_sdks: []

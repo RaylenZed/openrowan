@@ -1,0 +1,25 @@
+{{ define "main" }}
+<section class="legal-page">
+  <div class="legal-inner">
+    <div class="legal-header">
+      {{ with .Params.app_name }}
+      <a href="/apps/{{ anchorize . }}/" class="legal-back">← {{ . }}</a>
+      {{ end }}
+      <h1 class="legal-title">{{ .Title }}</h1>
+      {{ with .Params.last_updated }}
+      <p class="legal-date">Last updated: {{ . }}</p>
+      {{ end }}
+    </div>
+    <div class="legal-body">
+      {{ .Content }}
+    </div>
+    <div class="legal-footer-links">
+      {{ with .Params.app_slug }}
+      <a href="/apps/{{ . }}/privacy/">Privacy Policy</a>
+      <a href="/apps/{{ . }}/terms/">Terms of Service</a>
+      <a href="/apps/{{ . }}/support/">Support</a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

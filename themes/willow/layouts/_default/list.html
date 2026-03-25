@@ -1,0 +1,66 @@
+{{ define "main" }}
+{{ $slug := "" }}
+{{ with .File }}{{ $slug = .Dir | path.Base }}{{ end }}
+{{ $appData := index .Site.Data.apps $slug }}
+
+<section class="app-detail-page">
+  <div class="app-detail-inner">
+
+    <div class="app-detail-hero">
+      {{ if $appData }}
+        {{ if $appData.icon }}
+        <img src="{{ $appData.icon }}" alt="{{ $appData.name }}" class="app-detail-icon" />
+        {{ else }}
+        <div class="app-icon-placeholder app-icon-placeholder--lg">
+          <span>{{ substr $appData.name 0 1 }}</span>
+        </div>
+        {{ end }}
+        <div class="app-detail-info">
+          <h1 class="app-detail-name">{{ $appData.name }}</h1>
+          <p class="app-detail-tagline">{{ $appData.tagline }}</p>
+          <div class="app-detail-meta">
+            <span class="app-platform">{{ $appData.platform | default "iOS" }}</span>
+            {{ if $appData.price }}<span class="app-price">{{ $appData.price }}</span>{{ end }}
+            {{ if $appData.version }}<span class="app-version">v{{ $appData.version }}</span>{{ end }}
+          </div>
+          {{ if $appData.appstore_url }}
+          <a href="{{ $appData.appstore_url }}" class="btn btn-store" target="_blank" rel="noopener">Download on App Store ↗</a>
+          {{ end }}
+        </div>
+      {{ else }}
+        <h1>{{ .Title }}</h1>
+      {{ end }}
+    </div>
+
+    {{ if $appData }}
+    {{ if $appData.description }}
+    <div class="app-detail-desc">
+      <p>{{ $appData.description }}</p>
+    </div>
+    {{ end }}
+    {{ end }}
+
+    <div class="app-legal-links">
+      <h2>Legal & Support</h2>
+      <div class="legal-link-grid">
+        <a href="/apps/{{ $slug }}/privacy/" class="legal-link-card">
+          <span class="llc-icon">🔒</span>
+          <span class="llc-label">Privacy Policy</span>
+          <span class="llc-arrow">→</span>
+        </a>
+        <a href="/apps/{{ $slug }}/terms/" class="legal-link-card">
+          <span class="llc-icon">📄</span>
+          <span class="llc-label">Terms of Service</span>
+          <span class="llc-arrow">→</span>
+        </a>
+        <a href="/apps/{{ $slug }}/support/" class="legal-link-card">
+          <span class="llc-icon">💬</span>
+          <span class="llc-label">Support</span>
+          <span class="llc-arrow">→</span>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+{{ end }}

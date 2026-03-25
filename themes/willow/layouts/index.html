@@ -1,0 +1,92 @@
+{{ define "main" }}
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-bg">
+    <div class="hero-grain"></div>
+    <svg class="hero-willow" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <g opacity="0.06" stroke="#3d6b4a" fill="none" stroke-width="1.2">
+        <path d="M400,0 Q380,80 340,160 Q300,240 260,320 Q220,400 200,500"/>
+        <path d="M400,0 Q420,100 450,190 Q480,280 470,380 Q460,460 440,540"/>
+        <path d="M400,20 Q360,100 320,180 Q280,260 250,350 Q230,420 220,500"/>
+        <path d="M400,10 Q440,110 460,200 Q480,300 490,390"/>
+        <path d="M400,30 Q370,110 350,200 Q330,290 310,380"/>
+        <path d="M400,0 Q385,90 355,175 Q330,255 310,340"/>
+        <path d="M400,0 Q415,90 440,175 Q460,255 465,345"/>
+        <path d="M395,40 Q375,120 360,205 Q345,285 330,365"/>
+        <path d="M405,40 Q425,120 445,205 Q460,285 462,365"/>
+        <path d="M398,60 Q380,145 368,230 Q355,315 345,395"/>
+        <path d="M402,60 Q420,145 435,230 Q448,315 450,395"/>
+      </g>
+    </svg>
+  </div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">◆ Indie App Studio</p>
+    <h1 class="hero-title">Apps that do<br/><em>one thing well.</em></h1>
+    <p class="hero-sub">{{ .Site.Params.description }}</p>
+    <a href="#apps" class="hero-cta">See the apps</a>
+  </div>
+  <div class="hero-scroll-hint" aria-hidden="true">scroll ↓</div>
+</section>
+
+<!-- Apps -->
+<section class="apps-section" id="apps">
+  <div class="section-inner">
+    <div class="section-header">
+      <h2 class="section-title">Apps</h2>
+      <p class="section-sub">Each app is a focused tool — no subscriptions, no bloat.</p>
+    </div>
+
+    <div class="apps-grid">
+      {{ range (readDir "data/apps") }}
+        {{ $appData := index $.Site.Data.apps (replace .Name ".yaml" "") }}
+        {{ if $appData }}
+        <article class="app-card {{ if $appData.featured }}app-card--featured{{ end }}">
+          <div class="app-icon-wrap">
+            {{ if $appData.icon }}
+            <img src="{{ $appData.icon }}" alt="{{ $appData.name }} icon" class="app-icon" />
+            {{ else }}
+            <div class="app-icon-placeholder">
+              <span>{{ substr $appData.name 0 1 }}</span>
+            </div>
+            {{ end }}
+          </div>
+          <div class="app-info">
+            <h3 class="app-name">{{ $appData.name }}</h3>
+            <p class="app-tagline">{{ $appData.tagline }}</p>
+            <div class="app-meta">
+              <span class="app-platform">{{ $appData.platform | default "iOS" }}</span>
+              {{ if $appData.price }}<span class="app-price">{{ $appData.price }}</span>{{ end }}
+            </div>
+          </div>
+          <div class="app-links">
+            {{ if $appData.appstore_url }}
+            <a href="{{ $appData.appstore_url }}" class="btn btn-store" target="_blank" rel="noopener">
+              App Store ↗
+            </a>
+            {{ else }}
+            <span class="btn btn-coming">Coming soon</span>
+            {{ end }}
+            <a href="/apps/{{ replace .Name ".yaml" "" }}/" class="btn btn-ghost">Details</a>
+          </div>
+        </article>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section class="about-section" id="about">
+  <div class="section-inner about-inner">
+    <div class="about-deco" aria-hidden="true">◆</div>
+    <div class="about-text">
+      <h2 class="section-title">About the studio</h2>
+      <p>OpenWillow is a one-person indie studio run by <strong>RaylenZed</strong>. I build small, focused apps for iOS — the kind that solve a specific problem elegantly and get out of your way.</p>
+      <p>Every app ships with a clean privacy policy: I collect only what's necessary to make the app work. No tracking, no profiling.</p>
+      <a href="mailto:{{ .Site.Params.email }}" class="about-contact">Get in touch →</a>
+    </div>
+  </div>
+</section>
+
+{{ end }}

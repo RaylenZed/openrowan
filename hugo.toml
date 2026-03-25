@@ -1,0 +1,17 @@
+baseURL = "https://openwillow.dev/"
+languageCode = "en-us"
+title = "OpenWillow Studio"
+theme = "willow"
+
+[params]
+  studioName = "OpenWillow"
+  tagline = "Indie apps, thoughtfully made."
+  author = "RaylenZed"
+  email = "ray@raylenzed.com"
+  github = "https://github.com/RaylenZed"
+  description = "OpenWillow is an indie app studio building focused, beautiful apps for iOS."
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
