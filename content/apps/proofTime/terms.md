@@ -11,7 +11,7 @@ By downloading or using ProofTime, you agree to these Terms of Service. If you d
 
 ## License
 
-OpenRowan Studio grants you a personal, non-exclusive, non-transferable license to use ProofTime on Apple devices you own or control, subject to the App Store Terms of Service.
+Leilei Zhang grants you a personal, non-exclusive, non-transferable license to use ProofTime on Apple devices you own or control, subject to the App Store Terms of Service.
 
 You may not:
 - Reverse engineer or attempt to extract the source code
@@ -28,7 +28,7 @@ The App is provided "as is" and "as available." We disclaim all warranties, expr
 
 ## Limitation of Liability
 
-To the maximum extent permitted by applicable law, OpenRowan Studio shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of data or records, arising from your use of the App.
+To the maximum extent permitted by applicable law, Leilei Zhang shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of data or records, arising from your use of the App.
 
 ## Your Responsibility
 

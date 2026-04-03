@@ -7,7 +7,7 @@ last_updated: "2026-03-25"
 
 ## Overview
 
-Twinkle ("the App") is developed by OpenRowan Studio. This Privacy Policy explains what information is collected and how it is used when you use Twinkle to generate AI bedtime stories.
+Twinkle ("the App") is developed by Leilei Zhang. This Privacy Policy explains what information is collected and how it is used when you use Twinkle to generate AI bedtime stories.
 
 **Short version:** We send only your chosen story theme and character name to an AI service to generate stories. We do not collect your name, email, or any information about your child. Subscription billing is handled entirely by Apple.
 

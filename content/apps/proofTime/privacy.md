@@ -7,7 +7,7 @@ last_updated: "2026-03-25"
 
 ## Overview
 
-ProofTime ("the App") is developed by OpenRowan Studio. This Privacy Policy explains what data the App accesses, how it is used, and where it is stored.
+ProofTime ("the App") is developed by Leilei Zhang. This Privacy Policy explains what data the App accesses, how it is used, and where it is stored.
 
 **Short version:** All your proof records stay on your device. We access your camera and location only to create the records you request. Nothing leaves your phone except anonymous crash reports.
 
@@ -35,7 +35,7 @@ We collect anonymous crash reports to identify and fix bugs. These include devic
 
 ## Data Storage
 
-All proof records (photos, videos, timestamps, GPS coordinates) are stored exclusively on your device's local storage and, if enabled by you, synced via iCloud under your own Apple ID. OpenRowan Studio has no access to your iCloud data.
+All proof records (photos, videos, timestamps, GPS coordinates) are stored exclusively on your device's local storage and, if enabled by you, synced via iCloud under your own Apple ID. Leilei Zhang has no access to your iCloud data.
 
 ## iCloud Sync
 

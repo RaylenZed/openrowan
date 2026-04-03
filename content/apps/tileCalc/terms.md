@@ -11,7 +11,7 @@ By downloading or using TileCalc, you agree to these Terms. If you do not agree,
 
 ## License
 
-OpenRowan Studio grants you a personal, non-exclusive, non-transferable license to use TileCalc on Apple devices you own or control, in accordance with the App Store Terms of Service.
+Leilei Zhang grants you a personal, non-exclusive, non-transferable license to use TileCalc on Apple devices you own or control, in accordance with the App Store Terms of Service.
 
 ## Accuracy of Calculations
 
@@ -23,7 +23,7 @@ The App is provided "as is." We make no warranties regarding accuracy, completen
 
 ## Limitation of Liability
 
-OpenRowan Studio shall not be liable for any indirect, incidental, or consequential damages arising from use of the App, including costs from inaccurate material estimates.
+Leilei Zhang shall not be liable for any indirect, incidental, or consequential damages arising from use of the App, including costs from inaccurate material estimates.
 
 ## Changes
 

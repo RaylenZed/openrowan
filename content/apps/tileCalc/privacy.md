@@ -7,7 +7,7 @@ last_updated: "2026-03-25"
 
 ## Overview
 
-TileCalc ("the App") is developed by OpenRowan Studio. This is a simple, offline calculator. This page exists to be transparent about what we do — and don't — collect.
+TileCalc ("the App") is developed by Leilei Zhang. This is a simple, offline calculator. This page exists to be transparent about what we do — and don't — collect.
 
 **Short version:** TileCalc collects essentially no data. All calculations happen on your device. We don't know who you are, what rooms you're tiling, or how you use the App.
 
