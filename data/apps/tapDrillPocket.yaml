@@ -1,0 +1,24 @@
+name: "Tap Drill Pocket"
+slug: "tapDrillPocket"
+tagline: "Thread charts for the shop bench."
+description: "Tap Drill Pocket is an offline tap drill, form tap, and clearance hole reference for machinists and workshop users. It supports inch, metric, UNC, UNF, NPT, NPS, and common machine screw threads, with custom drill-kit filtering so users can see the sizes they actually have."
+platform: "iOS"
+price: "$2.99"
+version: "1.0.0"
+featured: false
+icon: ""
+appstore_url: ""
+
+# Privacy policy generation inputs
+collects_analytics: false
+collects_crash_reports: false
+collects_camera: false
+collects_photo_library: false
+collects_location: false
+collects_contacts: false
+has_account_system: false
+has_subscription: false
+has_iap: false
+stores_data_locally: true
+stores_data_on_server: false
+third_party_sdks: []
